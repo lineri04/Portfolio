@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color:#ffff;
+    color:#605353;
+  }
+  h1{
+    text-align:center;
+    margin-top:12vh;
+  }
+  .text1{
+    width:450px;
+    display:flex;
+    align-items:center;
+    margin-left: 48px;
+  }
+  .wrapper{
+    display:flex;
+    justify-content:center;
+    margin-top:6vh;
+  }
+  .bild{
+    width: 170px;
+    height: 218px;
+    object-fit: cover;
+  }
+  .nav-wrapper{
+    width:100%;
+    height:10vh;
+    background-color:#ffffff;
+    display:flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+  }
+  
+  .menu{
+  display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+  
+  h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  }
+  
+  .menu ul{
+  display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .menu ul li{
+  margin-left: 60px;
+  list-style: none;
+  }
+  
+  .menu ul li a{
+    text-decoration: none;
+    color: #605353;
+    font-style: 20px;
+  }
+  
+  .platformer{
+      width:250px;
+      margin-left: auto;
+      margin-right:auto;
+      margin-bottom: 20px;
+      position:relative;
+  }
+  
+  .center-card{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  .p-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-card{
+      max-width: 250px;
+      text-align: center;
+      width: 500px;
+      margin-top: 10vh;
+      background-color: white;
+      box-shadow: 0 0 2px 0px #bdbdbd;
+      height: 407px;
+    }
+  
+    .space-cards{
+      margin-left: 2rem;
+    }
+    .about-card h2{
+      padding-top: 10px;
+    }
+    .work-possition{
+      float: left;
+      margin-left: -126px;
+      margin-top: 5px;
+      display: flex;
+      justify-content: center;
+    }
+    .work-mail{
+      color: #47525d;
+      font-size: 10px;
+      margin-bottom: 10px;
+      margin-left: -67px;
+    }
+    .work-text{
+      float: left;
+      margin-left: 24px;
+      max-width: 190px;
+      font-size: 9px;
+    }
+    .about-card img{
+      object-fit: cover;
+      object-position: center;
+      height: 250px;
+      width: 200px;
+    }
+  
+    .center-card{
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+  }
+  
+  .p-wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-card{
+      max-width: 250px;
+      text-align: center;
+      width: 500px;
+      margin-top: 10vh;
+      background-color: white;
+      box-shadow: 0 0 2px 0px #bdbdbd;
+      height: 407px;
+    }
+  
+    .space-cards{
+      margin-left: 2rem;
+    }
+    .about-card h2{
+      padding-top: 10px;
+    }
+    .work-possition{
+      float: left;
+      margin-left: -126px;
+      margin-top: 5px;
+      display: flex;
+      justify-content: center;
+    }
+    .work-mail{
+      color: #47525d;
+      font-size: 10px;
+      margin-bottom: 10px;
+      margin-left: -67px;
+    }
+    .work-text{
+      float: left;
+      margin-left: 24px;
+      max-width: 190px;
+      font-size: 9px;
+    }
+    .about-card img{
+      object-fit: cover;
+      object-position: center;
+      height: 250px;
+      width: 200px;
+    }
+  
+    .center-card2{
+      margin-top: 70px;
+      display: flex;
+      justify-content: space-around;
+      align-content: space-around;
+    }
+    
+    .p-wrapper2{
+      display: flex;
+      flex-direction: column;
+    }
+    
+      .about-card2{
+        max-width: 250px;
+        text-align: center;
+        width: 500px;
+        margin-top: 10vh;
+        background-color: white;
+        box-shadow: 0 0 2px 0px #bdbdbd;
+        height: 407px;
+      }
+    
+      .space-cards{
+        margin-left: 2rem;
+      }
+      .about-card2 h2{
+        padding-top: 10px;
+      }
+      .work-possition2{
+        float: left;
+        margin-left: -126px;
+        margin-top: 5px;
+        display: flex;
+        justify-content: center;
+      }
+      .work-mail2{
+        color: #47525d;
+        font-size: 10px;
+        margin-bottom: 10px;
+        margin-left: -67px;
+      }
+      .work-text2{
+        float: left;
+        margin-left: 24px;
+        max-width: 190px;
+        font-size: 9px;
+      }
+      .about-card2 img{
+        object-fit: cover;
+        object-position: center;
+        height: 250px;
+        width: 200px;
+      }
