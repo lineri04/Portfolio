@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Projekt</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.png" sizes="32x32">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">  
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+</head>
+<body>
+	<header class="wrapper-navbar">
+			<div class="navbar">
+				<div class="logo">
+					<img src="images/favicon.png">
+				</div>
+				<ul>
+					<li class="active"><a href="index.html"><i class="fa fa-home"></i>Hem</a></li>
+					<li><a href="intruduktion.html">Introduktion</a></li>
+					<li><a href="certifikat.html">Bull & Bear</a></li>
+					<li><a href="analys.html"> Analys </a></li>
+				</ul>
+			</div>
+	</header>
+	<section>
+		<div class="title">
+			<h1>Aktier</h1>
+		</div>
+		<div class="button">
+			<a href="intruduktion.html" class="btn">Introduktion</a>
+			<a href="certifikat.html" class="btn">Bull & Beer</a>
+			<a href="analys.html" class="btn">Hemsidor</a>
+		</div>
+	</section>
+	<div class="wrapper">
+		<img src="#" alt="">
+		<div class="content">
+		  <header>Användarvillkor</header>
+		  <p>Denna hemsida är ingen financiel rådgivare, handla aktier sker på egen risk.
+			Informationen på denna hemsida har tagits från en tredje part! Om du klickar Godkän har du accepterar 
+			hemsidans användarvillkor
+		  </p>
+		  <div class="buttons">
+			<button class="item">Godkän</button>
+			<a href="error.html" class="item">Neka</a>
+		  </div>
+		</div>
+	  </div>
+	<script>
+		const userAgrement = document.querySelector(".wrapper"),
+		acceptBtn = userAgrement.querySelector("button");
+		acceptBtn.onclick = ()=>{
+		//UserAgrement = UA
+		  document.UA = "UA=CodingNepal; max-age="+60*60*24*30;
+		  if(document.UA){ 
+			userAgrement.classList.add("hide"); 
+		  }else{ 
+			alert("UA can't be set! Please unblock this site from the test setting of your browser.");
+		  }
+		}
+		let checkUA = document.UA.indexOf("UABy=CodingNepal"); 
+		checkUA != -1 ? userAgrement.classList.add("hide") : userAgrement.classList.remove("hide");
+	  </script>
+</body>
+</html>
