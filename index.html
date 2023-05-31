@@ -11,7 +11,7 @@
         content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
     <title>Tuto</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.png" sizes="32x32">
+  <link rel="icon" type="image/x-icon" href="images/favicon.png" sizes="32x32">
   <link href='https://fonts.googleapis.com/css?family=Island Moments' rel='stylesheet'>
   <script src="https://kit.fontawesome.com/42339a690f.js" crossorigin="anonymous"></script>
   <script>
@@ -27,9 +27,9 @@
     <div class="menu">
       <h2>Eriksson</h2>
       <ul>
-        <li> <a href="#home">Home</a></li>
-        <li> <a href="http://webbem.se/elever/2022-23/lineri04/Utveckling.htm">Project</a></li>
-        <li> <a href="#about">About</a></li>
+        <li> <a href="#home"><button class="button button5">Home</button></a></li>
+        <li> <a href="http://webbem.se/elever/2022-23/lineri04/Utveckling.htm"><button class="button button5">Project</button></a></li>
+        <li><a href="#about"><button class="button button5">About</button></a></li>
       </ul>
       <div class="search-container">
         <input type="search" id="search" value="" onchange="ouvrirPage()" placeholder="Search">
@@ -46,7 +46,7 @@
             }
 
             if (a === "Team") {
-                window.open("http://webbem.se/elever/2022-23/lineri04/positionering_och_z-index/","_self");
+                window.open("http://webbem.se/elever/2022-23/lineri04/team.html","_self");
             }
 
             if (a === "Support") {
@@ -62,7 +62,7 @@
             }
 
             if (a === "team") {
-                window.open("http://webbem.se/elever/2022-23/lineri04/positionering_och_z-index/","_self");
+                window.open("http://webbem.se/elever/2022-23/lineri04/team.html","_self");
             }
 
             if (a === "support") {
@@ -74,11 +74,11 @@
             }
 
             if (a === "Github") {
-                window.open("https://lineri04.github.io/Eriksson-website/","_self");
+                window.open("https://lineri04.github.io/Portfolio/","_self");
             }
 
             if (a === "github") {
-                window.open("https://lineri04.github.io/Eriksson-website/","_self");
+                window.open("https://lineri04.github.io/Portfolio/","_self");
             }
 
             if (a === "Homework") {
@@ -92,6 +92,11 @@
             if (a === "Develop") {
                 window.open("http://webbem.se/elever/2022-23/lineri04/Utveckling.htm","_self");
             }
+
+            if (a === "Admin123") {
+                window.open(" http://webbem.se/elever/2022-23/lineri04/Projekt/index.html ","_self");
+            }
+           
         }
      </script>
   </div>
@@ -107,65 +112,58 @@
   </main>
   <div class="project-wrapper">
     <div class="project-card">
-      <a href="http://webbem.se/elever/2022-23/lineri04/Uppgifter.htm"><img src="Uppgifter.png" height="200"></a>
+      <a href="http://webbem.se/elever/2022-23/lineri04/Uppgifter.htm"><img src="images/Uppgifter.png" height="200"></a>
       <h3>Homework</h3>
       <p>Where tasks are added</p>
     </div>
     <div class="project-card">
-      <a href="http://webbem.se/elever/2022-23/lineri04/positionering_och_z-index/"><img src="Team.png" height="200"></a>
+      <a href="http://webbem.se/elever/2022-23/lineri04/team.html"><img src="images/Team.png" height="200"></a>
       <h3>Team</h3>
       <p>Erikssons Team</p>
     </div>
     <div class="project-card">
-      <a href="http://webbem.se/elever/2022-23/lineri04/Utveckling.htm"><img src="Utveckling.png" height="200"></a>
+      <a href="http://webbem.se/elever/2022-23/lineri04/Utveckling.htm"><img src="images/Utveckling.png" height="200"></a>
       <h3>Develoloping side</h3>
       <p>This page is used to develop new projects</p>
     </div>
   </div>
   <div class="project-wrapper">
     <div class="project-card">
-      <a href="#"><button onclick="myFunction()"><img src="stopp.png" height="200"></button></a>
-      <h3>Developing</h3>
-      <p>This side those not have a function yet</p>
+      <a href="http://webbem.se/elever/2022-23/lineri04/API.html"><img src="images/API.png" height="200"></a>
+      <h3>Astronomy Picture Of The Day</h3>
+      <p>Application programming interface</p>
     </div>
     <div class="project-card">
-      <a href="http://webbem.se/elever/2022-23/lineri04/Support.htm"><img src="Support.png" height="200"></a>
+      <a href="http://webbem.se/elever/2022-23/lineri04/Support.htm"><img src="images/Support.png" height="200"></a>
       <h3>Support</h3>
       <p>The place to get help</p>
     </div>
     <div class="project-card">
-      <a href="https://lineri04.github.io/Eriksson-website/"><img src="Github.png" height="200"></a>
+      <a href="https://lineri04.github.io/Portfolio/"><img src="images/Github.png" height="200"></a>
       <h3>Github</h3>
-      <p>The page can be found on Guthub</p>
+      <p>The page can be found on Github</p>
     </div>
   </div>
    <div class="container" style="background-color:white">
-    <h2>Subscribe to newsletter</h2>
-    <p>Subscribe to recive the lattest upptats on the web site.</p>
     <form action="mailto:lineri04@elev.danderyd.se" method="post" enctype="text/plain">
-      Name:<br>
-      <input type="text" name="name" size="25"><br>
-      E-mail:<br>
-      <input type="text" name="mail" size="25"><br>
-      Comment:<br>
-      <input type="text" name="comment" size="50"><br><br>
-      <input type="submit" value="submit">
-      <input type="reset" value="Reset">
+      <p>Support</p> <br>
+      <input type="text" name="Name" placeholder="Name" size="25"><br>
+      <input type="email" name="Mail" placeholder="example@outlook.com" size="25"><br>
+      <textarea name="Your comment" placeholder="Your comment" rows="8" cols="75" ></textarea>
+      <div class="btns">
+        <input class="button" type="submit" value="Submit">
+        <input class="button" type="reset" value="Reset">
+    </div>
   </div>
 </form>
 
   <div class="social-wrapper">
     <div class="information-wrapper">
-        <h3>Support</h3>
-        <ul>
-          <li><a href="http://webbem.se/elever/2022-23/lineri04/Support.htm">Support</a></li>
-        </ul>
       </div>
       <div class="information-wrapper">
         <h3 id="about">About me</h3>
         <ul>
-          <li><a href="http://webbem.se/elever/2022-23/lineri04/Newsletter.htm">Newsletter</a></li>
-          <li><a href="http://webbem.se/elever/2022-23/lineri04/positionering_och_z-index/">Team</a></li>
+          <li><a href="http://webbem.se/elever/2022-23/lineri04/team.html">Team</a></li>
         </ul>
       </div>
      <div class="media">
